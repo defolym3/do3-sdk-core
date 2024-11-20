@@ -47,8 +47,8 @@ export const PROTOCOL_TOKEN_ADDRESSES: AddressMap = {
   [ChainId.SCROLL]: '',
   [ChainId.SCROLL_SEPOLIA]: '',
   [ChainId.SEPOLIA]: '',
-  [ChainId.SHAPE_TESTNET]: '',
   [ChainId.SHAPE]: '',
+  [ChainId.SHAPE_TESTNET]: '',
   [ChainId.SONEIUM_TESTNET]: '',
   [ChainId.UNICHAIN_TESTNET]:'',
 };
