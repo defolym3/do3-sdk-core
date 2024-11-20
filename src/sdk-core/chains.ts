@@ -1,0 +1,92 @@
+export enum ChainId {
+  AMOY = 80002,
+  ARBITRUM = 42161,
+  ARBITRUM_SEPOLIA = 421614,
+  AVALANCHE = 43114,
+  BASE = 8453,
+  BASE_SEPOLIA = 84532,
+  BSC = 56,
+  BSC_TESTNET = 97,
+  FRAX_TESTNET = 2522,
+  FUJI = 43113,
+  HEDERA = 295,
+  HEDERA_TESTNET = 296,
+  HOLESKY = 17000,
+  KAIA = 8217,
+  KAIROS = 1001,
+  METIS_TESTNET = 59902,
+  MODE = 34443,
+  MODE_TESTNET = 919,
+  OKX = 66,
+  OPBNB_TESTNET = 5611,
+  OPTIMISM = 10,
+  SCROLL = 534352,
+  SCROLL_SEPOLIA = 534351,
+  SEPOLIA = 11155111,
+  SHAPE= 360,
+  SHAPE_TESTNET = 11011,
+  SONEIUM_TESTNET = 1946,
+  UNICHAIN_TESTNET = 1301,
+
+}
+
+export const SUPPORTED_CHAINS = [
+  ChainId.AMOY,
+  ChainId.ARBITRUM,
+  ChainId.ARBITRUM_SEPOLIA,
+  ChainId.AVALANCHE,
+  ChainId.BASE,
+  ChainId.BASE_SEPOLIA,
+  ChainId.BSC,
+  ChainId.BSC_TESTNET,
+  ChainId.FRAX_TESTNET,
+  ChainId.FUJI,
+  ChainId.HEDERA,
+  ChainId.HEDERA_TESTNET,
+  ChainId.HOLESKY,
+  ChainId.KAIA,
+  ChainId.KAIROS,
+  ChainId.METIS_TESTNET,
+  ChainId.MODE,
+  ChainId.MODE_TESTNET,
+  ChainId.OKX,
+  ChainId.OPBNB_TESTNET,
+  ChainId.OPTIMISM,
+  ChainId.SCROLL,
+  ChainId.SCROLL_SEPOLIA,
+  ChainId.SEPOLIA,
+  ChainId.SHAPE_TESTNET,
+  ChainId.SHAPE,
+  ChainId.SONEIUM_TESTNET,
+  ChainId.UNICHAIN_TESTNET,
+
+] as const;
+export type SupportedChainsType = typeof SUPPORTED_CHAINS[number];
+
+export const SUPPORTED_TESTNET_CHAINS = [
+  ChainId.AMOY,
+  ChainId.ARBITRUM_SEPOLIA,
+  ChainId.BASE_SEPOLIA,
+  ChainId.BSC_TESTNET,
+  ChainId.FRAX_TESTNET,
+  ChainId.FUJI,
+  ChainId.HEDERA_TESTNET,
+  ChainId.HOLESKY,
+  ChainId.KAIROS,
+  ChainId.METIS_TESTNET,
+  ChainId.MODE_TESTNET,
+  ChainId.OPBNB_TESTNET,
+  ChainId.SCROLL_SEPOLIA,
+  ChainId.SHAPE_TESTNET,
+  ChainId.SONEIUM_TESTNET,
+  ChainId.UNICHAIN_TESTNET,
+] as const;
+export type SupportedTestnetChainsType = typeof SUPPORTED_TESTNET_CHAINS[number];
+
+export enum NativeCurrencyName {
+  // Strings match input for CLI
+  ETHER = 'ETH',
+  KAIROS = 'KAIA',
+  AVALANCHE = 'AVAX',
+  BSC = 'BNB'
+}
