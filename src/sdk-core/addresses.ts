@@ -157,12 +157,12 @@ const AMOY_ADDRESSES: ChainAddresses = {
 };
 
 const ARBITRUM_ADDRESSES: ChainAddresses = {
-  v3CoreFactoryAddress: '',
-  multicallAddress: '', 
-  quoterAddress: '', 
-  v3MigratorAddress: '',
-  nonfungiblePositionManagerAddress: '',
-  tickLensAddress: '',
+  v3CoreFactoryAddress: '0xa3792B3678b61001839c404ffcD20EF103473f68', // @note This is the defiedge PoolDeployer
+  multicallAddress: '0x3647c51266cc1610d1318edbdc1129da75db75c5', // Uni custom one
+  quoterAddress: '0x3D3429862B7a4053003Ddfdb76f1b2da6aed21A1', // V2
+  v3MigratorAddress: '0x596C5c71A079BddE96f940649C21a39201d4C47b',
+  nonfungiblePositionManagerAddress: '0x81F2c375AEDbdF02f11c1Ae125e2f51Efa777cEa',
+  tickLensAddress: '0x4f881DAD698afDb3eb186f1F3fb7db15Abc0F86a',
   swapRouter02Address: '',
   v1MixedRouteQuoterAddress: '',
 };
@@ -190,15 +190,16 @@ const AVALANCHE_ADDRESSES: ChainAddresses = {
 };
 
 const BASE_ADDRESSES: ChainAddresses = {
-  v3CoreFactoryAddress: '',
-  multicallAddress: '', 
-  quoterAddress: '',
-  v3MigratorAddress: '',
-  nonfungiblePositionManagerAddress: '',
-  tickLensAddress: '',
+  v3CoreFactoryAddress: '0x38015D05f4fEC8AFe15D7cc0386a126574e8077B',
+  multicallAddress: '0x091e99cb1C49331a94dD62755D168E941AbD0693', // Uni custom one
+  quoterAddress: '0x4fDBD73aD4B1DDde594BF05497C15f76308eFfb9', // V2
+  v3MigratorAddress: '0x596C5c71A079BddE96f940649C21a39201d4C47b',
+  nonfungiblePositionManagerAddress: '0xDe151D5c92BfAA288Db4B67c21CD55d5826bCc93',
+  tickLensAddress: '0x49a3A5cf91DE1b78c43Dc1adD03E8A71f1Ea2e30',
   swapRouter02Address: '',
-  v1MixedRouteQuoterAddress: '',
+  v1MixedRouteQuoterAddress: '0x73eFdC8039B47207Cc718b7ADcB3D0dC8E76c082',
 };
+
 
 const BASE_SEPOLIA_ADDRESSES: ChainAddresses = {
   v3CoreFactoryAddress: '',
@@ -324,29 +325,27 @@ const METIS_TESTNET_ADDRESSES: ChainAddresses = {
   v1MixedRouteQuoterAddress: '',
 };
 
-
 const MODE_ADDRESSES: ChainAddresses = {
-  v3CoreFactoryAddress: '',
-  multicallAddress: '', 
-  quoterAddress: '',
+  v3CoreFactoryAddress: '0x6E36FC34eA123044F278d3a9F3819027B21c9c32',
+  multicallAddress: '0x7bb14ed986dae0c8423350a7f1c59a31b3c84509', // Uni custom one
+  quoterAddress: '0xA642c56a9bCd863E52348798b31A8Db2BCdA5aee',
   v3MigratorAddress: '',
-  nonfungiblePositionManagerAddress: '',
-  tickLensAddress: '',
-  swapRouter02Address: '',
-  v1MixedRouteQuoterAddress: '',
+  nonfungiblePositionManagerAddress: '0xcc3726bCc27f232bC1CaAB40853AEa91ae43C216',
+  tickLensAddress: '0x62e879c8979694DbC3A4EF1dd324b08Ee3Ac3688',
+  swapRouter02Address: '0x7107112065dAF2EEedD56B06cdF185f3eFFF516D',
+  v1MixedRouteQuoterAddress: '0xC6004410771E706F46d756f3a6fCE7B1Df934498',
 };
 
 const MODE_TESTNET_ADDRESSES: ChainAddresses = {
   v3CoreFactoryAddress: '',
-  multicallAddress: '', 
-  quoterAddress: '',
+  multicallAddress: '0x30d273e96038cc14d1eedf0aa44e77be9caaa9b2', // Uni custom one
+  quoterAddress: '', // V2
   v3MigratorAddress: '',
   nonfungiblePositionManagerAddress: '',
   tickLensAddress: '',
   swapRouter02Address: '',
   v1MixedRouteQuoterAddress: '',
 };
-
 
 const OKX_ADDRESSES: ChainAddresses = {
   v3CoreFactoryAddress: '',
@@ -371,33 +370,33 @@ const OPBNB_TESTNET_ADDRESSES: ChainAddresses = {
 };
 
 const OPTIMISM_ADDRESSES: ChainAddresses = {
-  v3CoreFactoryAddress: '',
-  multicallAddress: '', 
-  quoterAddress: '', 
+  v3CoreFactoryAddress: '0xe52a36Bb76e8f40e1117db5Ff14Bd1f7b058B720',
+  multicallAddress: '0x1F98415757620B543A52E61c46B32eB19261F984', // Uni custom one
+  quoterAddress: '0x6F1a2F63Ea06B475EDBf2E6393406058C12A7910', // V2
   v3MigratorAddress: '',
-  nonfungiblePositionManagerAddress: '',
-  tickLensAddress: '',
-  swapRouter02Address: '',
+  nonfungiblePositionManagerAddress: '0x74a52eb08d699CD8BE1d42dA4B241d526B8a8285',
+  tickLensAddress: '0xFb68BBfaEF679C1E653b5cE271a0A383c0df6B45',
+  swapRouter02Address: '0xFDa619b6d20975be80A10332cD39b9a4b0FAa8BB',
   v1MixedRouteQuoterAddress: '',
 };
 
 const SCROLL_ADDRESSES: ChainAddresses = {
-  v3CoreFactoryAddress: '',
-  multicallAddress: '', 
-  quoterAddress: '',
+  v3CoreFactoryAddress: '0xbF79915e80DE0A361A4F35175BA9bF2e91B10424',
+  multicallAddress: '0x2B0A43DCcBD7d42c18F6A83F86D1a19fA58d541A', // Uni custom one
+  quoterAddress: '0x2ee99Be3c520B7Bd64f51641c3e7Ef28950E03B7',
   v3MigratorAddress: '',
-  nonfungiblePositionManagerAddress: '',
-  tickLensAddress: '',
+  nonfungiblePositionManagerAddress: '0x396F2cA2a470EfC92511fD3e99833d28D38CFf53',
+  tickLensAddress: '0xFb68BBfaEF679C1E653b5cE271a0A383c0df6B45',
   swapRouter02Address: '',
 };
 
 const SCROLL_SEPOLIA_ADDRESS: ChainAddresses = {
-  v3CoreFactoryAddress: '',
-  multicallAddress: '', 
-  quoterAddress: '',
+  v3CoreFactoryAddress: '0xe52a36Bb76e8f40e1117db5Ff14Bd1f7b058B720',
+  multicallAddress: '0x2B0A43DCcBD7d42c18F6A83F86D1a19fA58d541A', // Uni custom one
+  quoterAddress: '0x6F1a2F63Ea06B475EDBf2E6393406058C12A7910',
   v3MigratorAddress: '',
-  nonfungiblePositionManagerAddress: '',
-  tickLensAddress: '',
+  nonfungiblePositionManagerAddress: '0x78a087d713Be963Bf307b18F2Ff8122EF9A63ae9',
+  tickLensAddress: '0xFb68BBfaEF679C1E653b5cE271a0A383c0df6B45',
   swapRouter02Address: '',
 };
 
@@ -435,24 +434,25 @@ const SHAPE_TESTNET_ADDRESSES: ChainAddresses = {
 };
 
 const SONEIUM_TESTNET_ADDRESSES: ChainAddresses = {
-  v3CoreFactoryAddress: '',
-  multicallAddress: '', 
-  quoterAddress: '', 
+  v3CoreFactoryAddress: '0xe52a36Bb76e8f40e1117db5Ff14Bd1f7b058B720',
+  multicallAddress: '0x2B0A43DCcBD7d42c18F6A83F86D1a19fA58d541A', // Uni custom one
+  quoterAddress: '0x6F1a2F63Ea06B475EDBf2E6393406058C12A7910', // V2
   v3MigratorAddress: '',
-  nonfungiblePositionManagerAddress: '',
-  tickLensAddress: '',
-  swapRouter02Address: '',
+  nonfungiblePositionManagerAddress: '0x78a087d713Be963Bf307b18F2Ff8122EF9A63ae9',
+  tickLensAddress: '0xFb68BBfaEF679C1E653b5cE271a0A383c0df6B45',
+  swapRouter02Address: '0xFDa619b6d20975be80A10332cD39b9a4b0FAa8BB',
   v1MixedRouteQuoterAddress: '',
 };
 
 const UNICHAIN_ADDRESSES: ChainAddresses = {
-  v3CoreFactoryAddress: '',
-  multicallAddress: '',
-  quoterAddress: '', 
+  //same upper; 
+  v3CoreFactoryAddress: '0xe52a36Bb76e8f40e1117db5Ff14Bd1f7b058B720',
+  multicallAddress: '0x2B0A43DCcBD7d42c18F6A83F86D1a19fA58d541A', // Uni custom one
+  quoterAddress: '0x6F1a2F63Ea06B475EDBf2E6393406058C12A7910', // V2
   v3MigratorAddress: '',
-  nonfungiblePositionManagerAddress: '',
-  tickLensAddress: '',
-  swapRouter02Address: '',
+  nonfungiblePositionManagerAddress: '0x78a087d713Be963Bf307b18F2Ff8122EF9A63ae9',
+  tickLensAddress: '0xFb68BBfaEF679C1E653b5cE271a0A383c0df6B45',
+  swapRouter02Address: '0xFDa619b6d20975be80A10332cD39b9a4b0FAa8BB',
   v1MixedRouteQuoterAddress: '',
 };
 
